@@ -1,5 +1,6 @@
 {
 	"name": "roll-the-bones",
+	"description": "Helper functions for randomization",
 	"version": "1.0.0",
 	"author": "Joeri Bakker <bakkerjoeri@gmail.com>",
 	"license": "MIT",
