@@ -37,3 +37,23 @@ import { choose } from 'roll-the-bones';
 
 const randomColor = choose(['red', 'green', 'blue']); // => 'green'
 ```
+
+### `pick`
+
+Pick a few items from an array at random.
+
+```ts
+pick<TypeOfItem>(items: TypeOfItem[], amount: number, putBack = false): TypeOfItem[]
+```
+
+```ts
+import { pick } from 'roll-the-bones';
+
+const flavours = pick(['vanilla', 'chocolate', 'strawberry'], 2); // => ['strawberry', 'vanilla']
+```
+
+By default an item is removed from the available options after being picked, but you can make sure it is put back and available to pick again if you set `putBack` to `true`.
+
+```ts
+const flavours = pick(['vanilla', 'chocolate', 'strawberry'], 3, true); // => ['chocolate', 'vanilla', 'chocolate']
+```
