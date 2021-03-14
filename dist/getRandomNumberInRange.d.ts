@@ -1,1 +1,1 @@
-export declare function getRandomNumberInRange(lowerBound: number, upperBound: number): number;
+export declare function getRandomNumberInRange(min: number, max: number): number;

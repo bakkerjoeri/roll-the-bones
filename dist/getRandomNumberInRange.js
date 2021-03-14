@@ -1,3 +1,3 @@
-export function getRandomNumberInRange(lowerBound, upperBound) {
-    return Math.floor(Math.random() * (upperBound + 1 + lowerBound));
+export function getRandomNumberInRange(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
 }
