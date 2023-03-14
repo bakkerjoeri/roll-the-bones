@@ -1,4 +1,4 @@
-import { choose } from "./choose";
+import { choose } from "./choose.js";
 
 export function pick<TypeOfItem>(
     items: TypeOfItem[],

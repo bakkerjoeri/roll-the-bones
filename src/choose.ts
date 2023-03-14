@@ -1,4 +1,4 @@
-import { getRandomNumberInRange } from './getRandomNumberInRange';
+import { getRandomNumberInRange } from './getRandomNumberInRange.js';
 
 export function choose<TypeOfItem>(choices: TypeOfItem[]): TypeOfItem {
 	if (choices.length === 0) {
