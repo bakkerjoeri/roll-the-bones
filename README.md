@@ -43,7 +43,7 @@ const randomColor = choose(['red', 'green', 'blue']); // => 'green'
 Pick a few items from an array at random.
 
 ```ts
-pick<TypeOfItem>(items: TypeOfItem[], amount: number, putBack = false): TypeOfItem[]
+function pick<TypeOfItem>(items: TypeOfItem[], amount: number, putBack = false): TypeOfItem[]
 ```
 
 ```ts
