@@ -1,4 +1,4 @@
-import { getRandomNumberInRange } from './getRandomNumberInRange';
+import { getRandomNumberInRange } from './getRandomNumberInRange.js';
 export function choose(choices) {
     if (choices.length === 0) {
         throw new Error('Cannot choose from 0 choices.');
